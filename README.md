@@ -16,7 +16,6 @@ In this repository, you will find :
 <details open>
 <summary> <b>Learn Java</b> </summary>
   <ol>
-
     <li>
       <a> Basics </a>
       <ul>
@@ -29,7 +28,6 @@ In this repository, you will find :
         <li><a> Generics </a></li>
       </ul>
     </li>
-
     <li>
       <a> Advanced </a>
       <ul>
@@ -45,7 +43,6 @@ In this repository, you will find :
         <li><a> TDD, BDD, ATTD </a></li>
       </ul>
     </li>
-    
     <li><a> Build Tools (Maven, Gradle, Ant) </a></li>
     <li><a> Servers (Tomcat, Weblogic, JBOSS, WebShpere, Jetty) </a></li>
     <li>
@@ -59,6 +56,5 @@ In this repository, you will find :
       </ul>
     </li>
     <li><a> Logging (Log4j, Log4j2, Logback) </a></li>
-  
   </ol>
 </details>
