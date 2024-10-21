@@ -1,0 +1,5 @@
+Interface Segregation Principle
+Definition: a client shouldn't be forced to depend on methods it doesn't use.
+
+It addresses the problem of designing large interfaces that force implementing classes to provide functionality they might not need.
+The ISP encourages creating smaller, more specific interfaces that define only the methods relevant to the specific needs of the clients.

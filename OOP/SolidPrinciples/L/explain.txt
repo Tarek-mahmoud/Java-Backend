@@ -1,0 +1,4 @@
+Definition: Objects of a superclass should be replaceable with objects of a subclass without affecting the correctness of the program.
+
+more details: https://chatgpt.com/c/6705d811-a200-8012-9a53-e4cd3fe2de88
+

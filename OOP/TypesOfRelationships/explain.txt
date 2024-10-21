@@ -1,0 +1,64 @@
+    Types of relationships in java
+        - Inheritance (is-a relationship)
+        - association ( has-a relationship)
+            - aggregation ( has-a relationship)
+            - composition ( part-of relationship)
+
+    * Unary association
+        classA -->  classB
+        classA knows about classB, classB knows nothing about classA
+
+        example:
+        Person 1 -->(has-a) 1...* Address
+
+    * Binary association
+        Student 1...* (has-a)<-->(has-a) 1...* Instructor
+
+
+    * Multiplicity
+        0....1  zero or one
+        1....* one or more instance
+        n      n numbers of instances
+        n...m  from n to m instances
+
+    * aggregation has-a relationship ( weak relationship )
+        classA ◇--- classB
+        classA "uses" classB  (independently)
+
+        examples:
+        Company ◇--- Employee
+        College ◇--- Student
+
+        two classes are independent of each other
+
+    * composition "part-of relationship" ( strong relationship )
+        classA ⬥--- classB
+        means: classB has no meaning without classA
+
+        examples:
+         Organization ⬥--- <owns> Department
+         Car ⬥--- <owns> Engine
+
+
+    association comes as a parameter of a method
+    public class A {
+        void test (B obj ) {
+            ------
+        }
+    }
+
+
+    aggregation comes as a two object but with independent behavior
+    public class A {
+        private B obj;
+        A(B obj) {
+            this.obj = obj;
+        }
+    }
+
+    composition comes as two objects with same behavior
+    public class A {
+        private B obj = new B();
+        -------
+    }
+    if we destroy A then B will destroy
